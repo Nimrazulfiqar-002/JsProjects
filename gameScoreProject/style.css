@@ -1,0 +1,62 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(100, 185, 185);
+   
+}
+.card-container{
+    width: 300px;
+    /* height: 200px; */
+    background-color: #182042;
+    margin: auto auto;
+    margin-top: 10%;
+    border: 2px solid white;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 20px;
+}
+.card1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.text{
+font-size: 24px;
+color: white;
+font-weight: 800;
+ font-family: "Rubik Mono One", monospace;
+ font-weight: 300;
+}
+.bg{
+    background-color: black;
+    padding: 0 25px;
+    margin: 4px;
+    color: red;
+    border-radius: 2px;
+    text-decoration-style: dotted;
+    font-family: "Codystar", sans-serif;
+    
+    p{
+        font-size: 56px;
+        font-weight: 700;
+    }
+}
+
+.sp-s-cards{
+    margin-top:20px ;
+    cursor: pointer;
+}
+.s-cards{
+    color: rgb(220, 214, 214);
+    border: 1px solid rgb(220, 214, 214);
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 2px;
+    font-weight: 600;
+    margin: 2px;
+}

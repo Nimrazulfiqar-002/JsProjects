@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Codystar:wght@300;400&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="card-container">
+        <div class="card1">
+            <span class="text">HOME</span>
+            <span class="bg">
+                <p id="home">0</p>
+            </span>
+             <div class="sp-s-cards" >
+            <span class="s-cards" onclick="homeScore1()">+1</span>
+            <span class="s-cards" onclick="homeScore2()">+2</span>
+            <span class="s-cards" onclick="homeScore3()">+3</span>
+            </div>
+        </div>
+        <div class="card1">
+            <span class="text">GUEST</span>
+            <span class="bg" >
+                <p id="guest">0</p>
+            </span>
+            <div class="sp-s-cards">
+            <span class="s-cards" onclick="guestScore1()">+1</span>
+            <span class="s-cards" onclick="guestScore1()">+2</span>
+            <span class="s-cards" onclick="guestScore1()">+3</span>
+            </div>
+           
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
